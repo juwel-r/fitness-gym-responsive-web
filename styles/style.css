@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: rgb(255, 255, 255);
+}
+body{
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: white;
+    background: black;
+}
+
+/*----------------Common Styles---------------*/
+
+.section-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-details{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .86rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.section{
+    max-width: 1060px;
+    margin:100px auto 0 auto;
+    background: black;
+}
+
+.btn-primary{
+    height: auto;
+    width: auto;
+    padding: 16px 40px;
+    font-size: 1.13rem;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    background-color:rgb(230, 83, 60) ;
+    border-radius: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+/*------Nav Styles-------*/
+
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    padding:60px 190px 0 190px;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.menu{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 47px;
+    padding: 4px;
+    border-radius: 40px;
+    padding-right: 25px;
+}
+
+.menu p{
+    font-size: 1.13rem;
+    color: white;
+}
+
+nav h1{
+    color: rgb(230, 83, 60);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.nav-container a{
+    text-decoration: none;
+}
+
+/*-------Banner Section--------*/
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    align-items: center; /* to do-devide eatch section into 50% */
+    margin-top: 30px;
+}
+
+.banner-content{
+    max-width: 520px;
+}
+
+.banner-content h4{
+    color: white;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align:left;
+}
+.banner-content span{
+    font-family: 'Miama', sans-serif;
+    font-weight: normal;
+    font-size: 9rem;
+}
+.banner-content span{
+    font-family: 'Miama', sans-serif;
+    font-weight: normal;
+    font-size: 9rem;
+}
+.banner-content p{
+    margin: 28px 0;
+    font-size: 1rem;
+}
+
+.btn2{
+ background-color: rgba(255, 255, 255, 0);
+ border: 1px solid white;
+ margin-left: 15px;
+
+}
+
+.banner-img{
+    position: relative;
+}
+.card-1 , .card-2{
+    border: 1px solid  rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);
+    font-size: 1.56rem;
+    font-weight: 900;
+    color: white;
+    text-align:left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+    padding:15px;
+
+}
+
+#card-1{
+    position: absolute;
+    bottom: 10%;
+    right: 72%;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(230, 83, 60) ;
+    border: none;
+}
+
+.card-2{
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 2.5rem;
+    width: 180px;
+    padding: 10px 15px;
+    flex-direction: column;
+    position: absolute;
+    top: 21%;
+    left: 63%;
+}
+
+.card-2 p , .card-1 p{
+    font-size: 0.9rem;
+
+}
+
+/*-------------------Habits Section-------------*/
+
+
+.habits-container >h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.habits-container  >p{
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 750px;
+    margin: 0 auto 50px auto;
+}
+
+.habits-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.habits-item h4{
+    color: white;
+    font-size: 1.13rem;
+    padding: 25px 0 10px 0;
+    text-align: center;
+}
+.habits-item p{
+    text-align: center;
+}
+
+.habits-item img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/*----------Run an extra Mile---------*/
+
+.run-container{
+    background: rgb(29, 29, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-left: 50px;
+    gap: 110px;
+    border-radius: 25px;
+}
+.run-content{
+ max-width: 440px;
+}
+.run-content p{
+ margin: 20px 0 45px 0;
+}
+
+.run-img{
+ padding: 30px;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*------------- BMI calculator Section (Challenge Part-1)----------------*/
+
+.bmi{
+    max-width: 1440px;
+    margin: 100px auto 0   auto;
+}
+.bmi > h2 , .bmi>p{
+    max-width: 550px;
+    margin:0 auto 20px auto;
+}
+/*------------- BMI chat Section----------------*/
+.calculator-container{
+    margin: 50px auto 0 auto;
+    background: rgb(29, 29, 29);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 190px 0 190px;
+}
+
+.calculator-container h4{
+    margin-top: 50px;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.bmi-chart > h4{
+    margin-bottom: 60px;
+}
+
+tbody{
+    color: rgba(255, 255, 255, 0.5);
+} 
+
+td , th{
+    width: auto;
+    padding: 15px;
+    text-align: left;
+    padding-right: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.164);
+    font-size: .86rem;
+}
+table{
+    border-collapse: collapse;
+}
+
+
+.bmi-input p{
+    margin-top: 20px;
+}
+.bmi-form{
+    max-width: 100%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    gap: 14px;
+}
+.activity-factor{
+    grid-column: 2 span;
+    margin-bottom: 30px;
+}
+
+.bmi-form input , .bmi-form select {
+    width: 100%;
+    height: 50px;
+    background: rgb(49, 49, 49);
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 10px ;  /* to do - selection ar arrow vitore nite hobe */
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.bmi-form button{
+    margin-bottom:50px ;
+}
+
+/*--------Our Student's Feedback (Challenge Part-2)---------------*/
+
+.student-review > h2{
+    text-align: center;
+    margin: 0 auto ;
+}
+.student-review > p{
+    max-width: 750px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+}
+
+.review{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 65px;
+    padding: 25px;
+    position: relative;
+}
+.review1{
+    background: linear-gradient(to right, rgb(41, 41, 41), rgb(0, 0, 0));
+    border-radius:  45px 5px 5px 45px;
+    grid-template-columns: 1fr 4.3fr;
+}
+#review2{
+    background: linear-gradient(to left, rgb(41, 41, 41),rgb(0, 0, 0));
+    border-radius: 5px 45px 45px 5px;
+    grid-template-columns: 81.11% 18.87%;
+    grid-template-columns:4.3fr 1fr;
+    justify-content: end;
+}
+
+.member-name1 , .member-name2{
+    position: absolute;
+    bottom: 15%;
+    font-size: .8rem;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 4px;
+    backdrop-filter: blur(1px);
+    background: rgba(48, 48, 48, 0.623);
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    padding: 7px 15px;
+    
+}
+.member-name1{
+    left: 5.8%;
+}
+.member-name2{
+    right: 6%;
+}
+.review >p{
+    max-width: 730px ;
+    line-height: 1.9rem;
+    text-align: justify;
+}
+#review2 >p{
+    text-align: justify;
+}
+.student-img{
+    width: 170px;
+}
+.student-img img{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 0 40px 0 rgb(92, 92, 92);
+}
+
+
+ /*---------------Meet Our Team------------*/
+
+ .meet-our-team{
+    margin-bottom: 80px;
+ }
+ .meet-our-team h2{
+    margin-bottom: 20px;
+     text-align: center;
+ }
+ .meet-our-team>p{
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 750px;
+    margin: 0 auto 50px auto;
+}
+
+.team-member-container{
+    padding: 20px;
+    background: rgb(29, 29, 29);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.trainer-1{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(../images/trainer-1.png) no-repeat center/cover;
+}
+
+.trainer-2{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(../images/trainer2.png) no-repeat center/cover;
+}
+.trainer-3{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(../images/trainer3.png) no-repeat center/cover;
+}
+.trainer-4{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(../images/trainer4.png) no-repeat center/cover;
+}
+.trainer-5{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(../images/trainer5.png) no-repeat center/cover;
+}
+.trainer-6{
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), url(../images/trainer6.png) no-repeat center/cover;
+}
+
+.member-img{
+    height: 270px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    padding: 15px;
+    gap: 5px;
+}
+
+.member-img h4{
+        font-size: 1.2rem;
+        font-weight: 800;
+}
+.member-img p{
+        color: rgba(255, 255, 255, 0.568);
+}
+
+/*----------------Footer Section---------------*/
+
+footer{
+    padding: 50px 190px 0 190px;
+    background: rgb(29, 29, 29);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+footer h1{
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.footer  .section-details{
+    max-width: 450px;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.footer-menu h4{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 30px;
+}
+.footer-menu a{
+    text-decoration: none;
+}
+.footer-menu p{
+    font-size: 1.3rem;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+ footer hr{
+    border: 1px solid rgba(82, 82, 82, 0.671);
+ }
+.copyright{
+    font-size: 1rem;
+    text-align: center;
+    padding: 30px;
+
+ }
