@@ -177,7 +177,7 @@ nav h1{
 .card-2{
     background: rgba(255, 255, 255, 0.1);
     font-size: 2.5rem;
-    width: 180px;
+    width: 200px;
     padding: 10px 15px;
     flex-direction: column;
     position: absolute;
@@ -493,6 +493,7 @@ footer h1{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
+    margin-left:15px;
 }
 .footer-menu h4{
     font-size: 2rem;
