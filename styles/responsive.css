@@ -122,10 +122,12 @@ justify-content: space-evenly;
 }
 
 .member-name1 , .member-name2{
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
     backdrop-filter: 0;
     position: static;
     padding: 7px 15px;
-    margin: 2px 20px;
     text-align: right;
     background: linear-gradient(to left, rgba(71, 71, 71, 0.63),rgba(0, 0, 0, 0));
 }
@@ -234,10 +236,12 @@ header{
 }
 
 .member-name1 , .member-name2{
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
     backdrop-filter: 0;
     position: static;
     padding: 7px 15px;
-    margin: 2px 20px;
     text-align: center;
     background: linear-gradient(to right, rgba(71, 71, 71, 0.63),rgba(0, 0, 0, 0));
 }
