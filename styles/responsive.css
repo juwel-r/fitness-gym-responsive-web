@@ -64,7 +64,8 @@ justify-content: space-evenly;
 }
 
 .card-2{
- width: 180px;
+ font-size: .8rem;
+ width: 182px;
     top: 8%;
     left: 52%;
 }
